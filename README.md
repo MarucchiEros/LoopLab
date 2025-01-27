@@ -15,7 +15,6 @@ LoopLab è un'applicazione web che consente agli utenti di creare colonne sonore
 - **Backend**: Node.js
 - **Frontend**: JavaScript
 - **Database**: MySQL
-- **Autenticazione**: Sistema a due profili (Utente e Admin)
 
 ## Contatti
 
