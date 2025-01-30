@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="consuntivo" company="" webLink="http://" view-date="2025-01-27" view-index="0" gantt-divider-location="448" resource-divider-location="300" version="3.3.3312" locale="it_CH">
+    <description/>
+    <view zooming-state="default:2" id="gantt-chart">
+        <field id="tpd3" name="Name" width="255" order="0"/>
+        <field id="tpd4" name="Begin date" width="96" order="1"/>
+        <field id="tpd5" name="End date" width="96" order="2"/>
+        <field id="tpd15" name="Notes" width="20" order="3"/>
+        <option id="filter.completedTasks" value="false"/>
+        <option id="filter.dueTodayTasks" value="false"/>
+        <option id="filter.overdueTasks" value="false"/>
+        <option id="filter.inProgressTodayTasks" value="false"/>
+        <timeline><![CDATA[3]]></timeline>
+        <option id="color.recent"><![CDATA[#f4f4f4]]></option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Name" width="210" order="0"/>
+        <field id="1" name="Default role" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars base-id="none">
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="1" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+        <date year="2025" month="3" date="3" type="HOLIDAY"/>
+        <date year="2025" month="3" date="4" type="HOLIDAY"/>
+        <date year="2025" month="3" date="5" type="HOLIDAY"/>
+        <date year="2025" month="3" date="6" type="HOLIDAY"/>
+        <date year="2025" month="3" date="7" type="HOLIDAY"/>
+        <date year="2025" month="3" date="24" type="HOLIDAY"/>
+        <date year="2025" month="3" date="25" type="HOLIDAY"/>
+        <date year="2025" month="3" date="26" type="HOLIDAY"/>
+        <date year="2025" month="3" date="27" type="HOLIDAY"/>
+        <date year="2025" month="3" date="28" type="HOLIDAY"/>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" uid="fa2e71f237a9450d93f5f1632b9ccaaf" name="Analisi" meeting="false" start="2025-01-27" duration="4" complete="0" expand="false">
+            <task id="1" uid="769863684d284fcd8e13380c47859557" name="Discussione con il cliente" meeting="false" start="2025-01-27" duration="1" complete="0" expand="true"/>
+            <task id="2" uid="a7d91ebb387946168e6c97dccc08e405" name="Stesura QDC" meeting="false" start="2025-01-27" duration="2" complete="0" expand="true"/>
+            <task id="3" uid="e3e82356ad8b4dddada4c3b1273793af" name="Analisi tecnologie" meeting="false" start="2025-01-28" duration="3" complete="0" expand="true"/>
+        </task>
+        <task id="5" uid="0777e1907aa445e2977ddbcbd481ed63" name="Progettazione" meeting="false" start="2025-01-30" duration="4" complete="0" expand="false">
+            <task id="7" uid="ee2b32258b69400baee3c6858198f2aa" name="Gantt" meeting="false" start="2025-01-30" duration="1" complete="0" expand="true"/>
+            <task id="6" uid="c5ce87b8a6fa4409a36cbaaecb03c0d4" name="UML" meeting="false" start="2025-01-30" duration="1" complete="0" expand="true"/>
+            <task id="9" uid="24399bc9fa984c97bc0cc5e12c9936e6" name="Diagrammi di flusso" meeting="false" start="2025-01-30" duration="2" complete="0" expand="true"/>
+            <task id="11" uid="4cdd713f7d7e4b28bbc1b4afaa091cd1" name="Requisiti funzionali" meeting="false" start="2025-01-31" duration="1" complete="0" expand="true"/>
+            <task id="10" uid="3140689eeba84ca5a3e5923d93daa296" name="Diagramma ER" meeting="false" start="2025-01-31" duration="1" complete="0" expand="true"/>
+            <task id="8" uid="c49654cd93e54c9ca6ae87eaaf19a8e8" name="Design delle interfaccie" meeting="false" start="2025-02-03" duration="2" complete="0" expand="true"/>
+        </task>
+        <task id="12" uid="7a38f08a92514d2fad51a782001fb279" name="Implementazione backend" meeting="false" start="2025-02-04" duration="19" complete="0" expand="true">
+            <task id="13" uid="b7474f114bba4eaf81cd1dedce3cf0b4" name="Setup e configurazione" meeting="false" start="2025-02-04" duration="1" complete="0" expand="true"/>
+            <task id="14" uid="d8ec7320f58648d3ae5d86084bbb4335" name="Implementazione autenticazione" meeting="false" start="2025-02-06" duration="2" complete="0" expand="true">
+                <task id="15" uid="4ca699b1ae214f62988354965891fb7f" name="Login e registrazione" meeting="false" start="2025-02-06" duration="2" complete="0" expand="true"/>
+                <task id="17" uid="91bc191635af4176a09142cc1f6deff4" name="Gestione ruoli" meeting="false" start="2025-02-07" duration="1" complete="0" expand="true"/>
+            </task>
+            <task id="18" uid="c83aa8e008794887b063d21db7e748d6" name="Colonne sonore" meeting="false" start="2025-02-10" duration="16" complete="0" expand="true">
+                <task id="27" uid="d10fc8fe55974c84813cd78fd3da7a85" name="Suoni predefiniti" meeting="false" start="2025-02-10" duration="2" complete="0" expand="true"/>
+                <task id="19" uid="3da4dc3bacfc4c8da5d45a6990f749d9" name="Creazione colonna sonora" meeting="false" start="2025-02-11" duration="6" complete="0" expand="true"/>
+                <task id="20" uid="3ca6f2a07a9847b48b706d950683ba49" name="Modifica colonna sonora" meeting="false" start="2025-02-20" duration="4" complete="0" expand="true"/>
+                <task id="21" uid="136a392388024434a086395ba3c1c99c" name="Salvataggio" meeting="false" start="2025-02-27" duration="2" complete="0" expand="true"/>
+                <task id="23" uid="ad1df60a396c4064920edf851d4f6189" name="Registrazione" meeting="false" start="2025-03-03" duration="4" complete="0" expand="true"/>
+                <task id="22" uid="126645f2a17b4ea79f187ae46e691776" name="Download in mp3" meeting="false" start="2025-03-07" duration="3" complete="0" expand="true"/>
+            </task>
+            <task id="25" uid="5ff60ffe1cfa45fe97cf350cb30b68c7" name="Gestione suoni" meeting="false" start="2025-03-13" duration="2" complete="0" expand="true">
+                <task id="28" uid="84b01a709fb140d0944061a574108acb" name="Upload suoni personalizzati" meeting="false" start="2025-03-13" duration="1" complete="0" expand="true"/>
+                <task id="29" uid="cd22845062cb4204937bacc828fdff4d" name="Effetti sonori" meeting="false" start="2025-03-14" duration="1" complete="0" expand="true"/>
+            </task>
+        </task>
+        <task id="34" uid="f99bf264b61249d1b332240c1fde402d" name="Implementazione GUI" meeting="false" start="2025-02-06" duration="18" complete="0" expand="false">
+            <task id="35" uid="8b9f3a8834a04168a8bc7bec8408165f" name="Autenticazione" meeting="false" start="2025-02-06" duration="1" complete="0" expand="true">
+                <task id="36" uid="18c9a3b5a1bb442fbaa1da2496f1059b" name="Form login e registrazione" meeting="false" start="2025-02-06" duration="1" complete="0" expand="true"/>
+            </task>
+            <task id="37" uid="ba45283a60db4d7eaacbe6dd782b2375" name="Colonne sonore" meeting="false" start="2025-02-10" duration="5" complete="0" expand="true">
+                <task id="38" uid="70450be7a71b4bf48bf5e6677e6192d1" name="Schermata creazione colonne sonore" meeting="false" start="2025-02-10" duration="5" complete="0" expand="true"/>
+                <task id="45" uid="260aa14522594b35a8316ec3a4d83b54" name="Muovimento cerchi" meeting="false" start="2025-02-17" duration="1" complete="0" expand="true"/>
+            </task>
+            <task id="41" uid="2d199ab98eb2451f835ab33e9ce82d37" name="Gestione suoni" meeting="false" start="2025-03-13" duration="2" complete="0" expand="true">
+                <task id="42" uid="4b6b4391dbfb45bcab0337ae38b85eba" name="Upload suono" meeting="false" start="2025-03-13" duration="1" complete="0" expand="true"/>
+                <task id="44" uid="e3d2b9f75a4e4f069edcf70ee944e77b" name="Selezione effetti" meeting="false" start="2025-03-14" duration="1" complete="0" expand="true"/>
+            </task>
+        </task>
+        <task id="52" uid="bf46efbc755d4899a436eb6c912070d5" name="Documentazione" meeting="false" start="2025-02-03" duration="27" complete="0" expand="false">
+            <task id="53" uid="688a3c1efb2e435dbe9f71b1dfe2f79d" name="Documentazione progetto" meeting="false" start="2025-02-03" duration="27" complete="0" expand="true"/>
+            <task id="54" uid="0a1524e423c9478c82ecedd34b9e957a" name="Guida applicativo utente" meeting="false" start="2025-03-31" duration="1" complete="0" expand="true"/>
+        </task>
+        <task id="46" uid="45fe7f2357c14e5e8e405ecf1e6d0290" name="Test" meeting="false" start="2025-03-20" duration="5" complete="0" expand="false">
+            <task id="47" uid="42c2a17662424afebfbffb6eefbdeb64" name="Debug" meeting="false" start="2025-03-20" duration="2" complete="0" expand="true"/>
+            <task id="48" uid="187acd8c423948a4a96cf5afbc9c944b" name="Correzioni" meeting="false" start="2025-04-01" duration="2" complete="0" expand="true"/>
+            <task id="49" uid="925f6ee4d3aa46b5a578966186de14fe" name="Gestione errori" meeting="false" start="2025-04-01" duration="2" complete="0" expand="true"/>
+        </task>
+        <task id="59" uid="ef1a6d38042141768cd7f16e8e68c978" name="Aggiuntive" meeting="false" start="2025-04-04" duration="1" complete="0" expand="false">
+            <task id="57" uid="ad19bf6818924f368a222563ea477a5e" name="Creazione poster" meeting="false" start="2025-04-04" duration="1" complete="0" expand="true"/>
+        </task>
+    </tasks>
+    <resources>
+        <resource id="0" name="Eros " function="Default:0" contacts="" phone=""/>
+    </resources>
+    <allocations>
+        <allocation task-id="0" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="5" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="12" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="34" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="18" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="52" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="46" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="59" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+    </allocations>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
